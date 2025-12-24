@@ -8,8 +8,8 @@ spring:
     username: root
     password: 1234
 
-  mybatis:
-    mapper-locations: classpath:mapper/**/*.xml
-    type-aliases-package: kr.soft.shopping.dto
-    configuration:
-      map-underscore-to-camel-case: true
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: kr.soft.shopping.dto
+  configuration:
+    map-underscore-to-camel-case: true
